@@ -1,0 +1,16 @@
+{
+  "name": "university",
+  "version": "1.0.0",
+  "description": "Lab 6",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo Flores",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "express": "^5.1.0"
+  }
+}
