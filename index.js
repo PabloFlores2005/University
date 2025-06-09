@@ -27,7 +27,7 @@ app.get('/data', async (req, res) => {
 app.post('/visualize', (req, res) => {
     try {
         const dataReceived = req.body;
-        console.log("🔍 Datos received to visualize:");
+        console.log("🔍 Data received to visualize:");
         console.log(dataReceived);
 
         res.json({ mensaje: "Data received" });
